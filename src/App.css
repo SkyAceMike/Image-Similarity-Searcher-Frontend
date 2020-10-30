@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: consolas;
+    color: #ddd;
+}
+body {
+    background: #000;
+}
+
+.split_div {
+    display: flex;
+    justify-content: space-around;
+}
+
+.split_image {
+    width: 50vw;
+    max-width: 600px;
+    object-fit: contain;
+}
+
+button {
+    color: black;
+    width: 100vw;
+    padding: 10px 0px;
+}
+
+button.image_delete {
+    color: red;
+}
+
+/* RGB Scrollbar CSS 😎 */
+/* #progressbar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 10px;
+    height: 0%;
+    background: linear-gradient(to top, #008aff, #00ffe7);
+    animation: animateScroll 5s linear infinite;
+}
+#progressbar:before,
+#progressbar:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 10px;
+    height: 100%;
+    background: linear-gradient(to top, #008aff, #00ffe7);
+    filter: blur(10px);
+}
+#progressbar:after {
+    filter: blur(30px);
+}
+
+@keyframes animateScroll {
+    0%, 100% {
+        filter: hue-rotate(0deg);
+    }
+    50% {
+        filter: hue-rotate(360deg);
+    }
+}
+::-webkit-scrollbar {
+    width: 0;
+} */
